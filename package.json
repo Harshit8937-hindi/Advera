@@ -1,0 +1,12 @@
+{
+  "name": "advera-ads-manager",
+  "version": "1.0.0",
+  "description": "Advera Automated Growth Engine & Ads Manager",
+  "private": true,
+  "main": "backend/server.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm install --prefix backend && node backend/server.js",
+    "install": "npm install --prefix backend && npm install --prefix frontend"
+  }
+}
